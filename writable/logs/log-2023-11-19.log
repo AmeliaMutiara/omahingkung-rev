@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-19 04:25:16 --> Class 'App\Controller\BaseController' not found
+#0 C:\xampp\htdocs\omahingkung-rev\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\omahingkung-rev\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('menu')
+#2 C:\xampp\htdocs\omahingkung-rev\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('menu')
+#3 C:\xampp\htdocs\omahingkung-rev\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\omahingkung-rev\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\omahingkung-rev\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
